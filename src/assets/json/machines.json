@@ -1,0 +1,23 @@
+[
+  {
+    "name": "Scale",
+    "status": 2,
+    "icon":"get_app"
+  },
+  {
+    "name": "Attacher",
+    "status": 0,
+    "icon":"event_note"
+  },
+  {
+    "name": "Packer",
+    "status": 2,
+    "icon":"call_to_action"
+  },
+  {
+    "name": "Closer",
+    "status": 1,
+    "icon":"grid_on"
+  }
+
+]

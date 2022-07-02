@@ -1,1 +1,3 @@
-<p>statusbar works!</p>
+<div class="block d-flex ">
+  <app-machine *ngFor="let machine of machines" [name]="machine.name" [status]="machine.status" ></app-machine>
+</div>

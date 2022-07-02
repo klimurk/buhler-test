@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import machinesData from '../../assets/json/machines.json';
+
 
 @Component({
   selector: 'app-statusbar',
@@ -11,5 +13,6 @@ export class StatusbarComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  machines: Machine[] = machinesData
 
 }

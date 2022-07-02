@@ -1,1 +1,7 @@
-<p>body works!</p>
+<div class="d-flex justify-content-center align-items-center flex-fill">
+
+  <ng-container *ngFor="let machine of machines ; last as isLast" class="d-flex">
+    <app-machine  [name]="machine.name" [status]="machine.status" [icon]="machine.icon" ></app-machine>
+    <hr width="90" *ngIf="!isLast" class="line my-auto"/>
+  </ng-container>
+</div>

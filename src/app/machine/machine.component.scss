@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+.machine{
+  width: 160px;
+}
+.icon{
+  width: auto;
+  height: 50px;
+  font-size: 50px;
+}
+.bg-error{
+  background-color: $clr-red;
+  color: white;
+}
+.bg-warn{
+  background-color: $clr-orange;
+  color: white;
+}
+.bg-common{
+  background-color: $clr-grey;
+}
